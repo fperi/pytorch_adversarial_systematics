@@ -1,0 +1,8 @@
+*.idea
+*.vagrant
+*.log
+*.DS_Store
+*__
+.ipynb_*
+output*
+*.html

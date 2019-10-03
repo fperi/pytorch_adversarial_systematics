@@ -1,0 +1,14 @@
+.output_png {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul li {
+    width:100%;
+    text-align:justify;
+}
+
+div {
+    text-align:justify;
+}
