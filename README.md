@@ -48,15 +48,15 @@ jupyter lab main.ipynb
 or converted to slides
 
 ```
-jupyter nbconvert main.ipynb --to slides --post serve
---SlidesExporter.reveal_theme=serif
---SlidesExporter.reveal_scroll=True
---TagRemovePreprocessor.remove_input_tags='{"to_remove"}'
---TagRemovePreprocessor.remove_output_tags='{"to_remove_out"}'
+jupyter nbconvert main.ipynb --to slides --post serve \
+--SlidesExporter.reveal_theme=serif \
+--SlidesExporter.reveal_scroll=True \
+--TagRemovePreprocessor.remove_input_tags='{"to_remove"}' \
+--TagRemovePreprocessor.remove_output_tags='{"to_remove_out"}' \
 --no-prompt
 ```
 
-In this second case, you also need to copy the `custom.css` file 
+In this second case, you also need to copy the `custom.css` file
 into `~/.jupyter/custom/custom.css`.
 
 The required libraries are listed in the `requirements.txt` file.
